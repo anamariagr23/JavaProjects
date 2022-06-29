@@ -1,9 +1,9 @@
 package com.example.helloworld;
 
 class Person {
-    String firstName;
-    String lastName;
-    Integer age;
+    private String firstName;
+    private String lastName;
+    private Integer age;
 
     public Person(String firstName, String lastName, Integer age) {
         this.firstName = firstName;
